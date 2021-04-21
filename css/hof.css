@@ -1,0 +1,105 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0px;
+  /* font-family: 'Libre Baskerville', serif; */
+}
+
+span {
+  position: relative;
+  top: 4%;
+  right: 5%;
+}
+
+/* ----------------------------------------------------- */
+/* navbar */
+/* ----------------------------------------------------- */
+.navbar {
+  height: 15%;
+/* font-family: 'Libre Baskerville', serif; */
+}
+.navbar-brand{
+    font-weight: 900;
+    font-size: 1rem;
+    /* margin-top: 2%; */
+}
+.btext{
+  margin-top: 2%;
+
+}
+ #navbarText{
+   margin-top: 2%;
+     font-size: 1rem;
+ }
+
+ .align-text-top{
+   height: 80px;
+   width: 80px;
+ }
+
+
+
+  /* ========================================================================== */
+  /* @media */
+  /* =========================================================================== */
+
+
+  @media screen and (max-width: 1024px) {
+    .navbar {
+      height: auto;
+
+    }
+    .btext{
+      font-size: 1.5rem;
+    }
+    .nav-item{
+      font-size: 2rem;
+    }
+    .navbar-text{
+        font-size: 2rem;
+        position: relative;
+        right: 0%;
+    }
+    .align-text-top{
+      height: 100px;
+      width: 100px;
+    }
+    /* .heading1{
+      margin-left: 28%;
+    }
+  */
+
+  }
+
+
+  /* ------------------------------------------------------ */
+  /* footer */
+  /* ------------------------------------------------------ */
+  #footer {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: -50px;
+  padding-bottom: 0.1rem;
+  background-color: #efefef;
+  color: black;
+
+ }
+ .footer-text{
+  color: black;
+  text-align: center;
+ }
+ .copyright{
+  margin-top: -17px;
+ padding-top: 2%;
+ }
+ .social-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+ }

@@ -1,0 +1,363 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0px;
+  font-family: 'EB Garamond', serif;
+}
+
+span {
+  position: relative;
+  top: 4%;
+  right: 2%;
+}
+
+/* ----------------------------------------------------- */
+/* navbar */
+/* ----------------------------------------------------- */
+.navbar {
+  height: 15%;
+}
+.navbar-brand{
+    font-weight: 700;
+}
+.btext{
+  margin-top: 2%;
+
+}
+ #navbarText{
+   margin-top: 2%;
+ }
+
+ .align-text-top{
+   height: 80px;
+   width: 80px;
+ }
+/* ----------------------------------------------------- */
+/* top logo */
+/* ----------------------------------------------------- */
+.top {
+  background: #218ef5;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.logo {
+  margin-left: 38%;
+  width: 25%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+/* ------------------------------------------------------- */
+/* about sol*/
+/* ------------------------------------------------------- */
+.about {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 15%;
+  box-shadow: rgba(46, 154, 255, 0.20) 0px 15px 25px, rgba(46, 154, 255, 0.10) 0px 5px 10px;
+}
+.aboutp {
+  padding: 10%;
+}
+.extract {
+  margin-top: 7%;
+}
+.heading{
+  font-weight: 900;
+}
+
+/* ---------------------------------------------------------- */
+/* Registration */
+/* ----------------------------------------------------------- */
+.mentor {
+  width: 20%;
+  height: 290px;
+  text-align: center;
+  position: relative;
+  left: 15%;
+  margin-top: 15%;
+  border-radius: 5%;
+box-shadow: rgba(46, 154, 255, 0.4) 0px 2px 8px 0px;
+}
+
+.mentorh {
+ font-size: 1.5rem;
+  margin-top: 7%;
+  margin-bottom: 4;
+ font-weight:700;
+}
+
+.reg {
+  margin-top: 20%;
+}
+
+
+.phoner{
+  display: none;
+}
+
+.bl{
+  margin-top:18% ;
+}
+
+.br{
+    margin-top:8% ;
+}
+.menteep{
+  margin-top: 10%;
+}
+/* ------------------------------------------------------ */
+/* course */
+/* -------------------------------------------------------- */
+
+.heading1 {
+/* font-family: "Montserrat-Bold";  */
+font-size: 3rem;
+  /* margin-left: 37%; */
+  margin-bottom: 5%;
+  text-align: center;
+}
+.hori{
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+#course {
+  margin-top: 10%;
+}
+
+/* ------------------------------------------------ */
+/* media  */
+/* ------------------------------------------------ */
+
+
+@media screen and (max-width: 1024px) {
+
+  #top {
+    margin-bottom: 15%;
+    margin-top: 20%;
+  }
+
+  .top {
+    height: 450px;
+  }
+
+  .logo {
+    margin-left: 30%;
+    width: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .phoner{
+    display: block;
+    width: 50%;
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 20%;
+  }
+ .mentee{
+   position: relative;
+   top: 150px;
+   height: 390px;
+ }
+  .laptop{
+    display: none;
+  }
+#course{
+  margin-top: 60%;
+}
+.about{
+  width: 70%;
+  margin-left: 15%;
+}
+.aboutp{
+  font-size: 1.4rem;
+}
+.mentor{
+  font-size: 1.4rem;
+}
+.nav-item{
+  font-size: 2rem;
+}
+.navbar-text{
+    font-size: 2rem;
+    position: relative;
+    right: 0%;
+}
+.align-text-top{
+  height: 100px;
+  width: 100px;
+}
+.heading1{
+  /* margin-left: 28%; */
+}
+.navbar {
+  height: auto;
+
+}
+.btext{
+  font-size: 1.5rem;
+}
+
+.phoneb{
+  margin-top: 7%;
+}
+.phoner{
+  margin-bottom: 70%;
+}
+}
+
+
+/* -------------------------------------------------------------- */
+/* course flip */
+/* -------------------------------------------------------------- */
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 300px;
+  perspective: 1000px;
+  margin-left: 50%;
+  margin-bottom: 20%;
+  margin-top: 30%;
+  border-radius: 50%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #f7f7f7;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #efefef;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.info {
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+.column {
+  float: unset;
+  width: 30%;
+  padding: 0 5px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.scard {
+  margin-left: 15%;
+  margin-right: 3%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0px -20px 0 -20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.heading2{
+  font-size: 1.2rem;
+/* font-family: "Montserrat-Bold"; */
+ margin-top: 2%;
+  margin-bottom: 0%;
+}
+.headname{
+  font-size: 1rem;
+/* font-family: "Montserrat-Bold"; */
+margin-bottom: 1%;
+  line-height: initial;
+}
+.coursename{
+/* font-family: "Montserrat-Bold"; */
+font-size: 0.8rem;
+}
+.courseimg{
+  margin-top: 4%;
+}
+.back{
+  margin-top: 5%;
+/* font-family: "Montserrat-Bold"; */
+ width: 100%;
+    font-size: 0.7rem;
+    margin-left: %;
+}
+.explore{
+  margin-left: 44%;
+   /* text-align: center; */
+   align-items: center;
+  margin-bottom: 10%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+  .footer-text{
+    color: black;
+    text-align: center;
+
+}
+
+  /* ------------------------------------------------------ */
+  /* footer */
+  /* ------------------------------------------------------ */
+  #footer {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: -50px;
+  padding-bottom: 0.1rem;
+  background-color: #efefef;
+  color: black;
+
+}
+.footer-text{
+  color: black;
+  text-align: center;
+}
+.copyright{
+  margin-top: -17px;
+ padding-top: 2%;
+}
+.social-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
